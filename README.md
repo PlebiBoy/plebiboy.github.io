@@ -1,2 +1,3 @@
 # PixelPerfectRatings
-School Project by Oliver B, Alessandro F, Bailey N, Matthew C, and Ming C
+School Project by Html2334, PlebiBoy, Liberland12345678901234567890, Cookguyq, Quicksite0
+
