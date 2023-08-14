@@ -3,7 +3,12 @@ h1 {
     color: aquamarine;
     font-family: 'Times New Roman';
 }
-.title1{
-    position: fixed;
-/* css styling for all paragraph text*/
+
+body {
+    background-color: steelblue;
 }
+
+/* .title1 {
+    position: fixed;
+}
+/* css styling for all paragraph text */
