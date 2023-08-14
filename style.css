@@ -9,6 +9,11 @@ body {
     text-align: center;
 }
 
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+}
+
 /* .title1 {
     position: fixed;
 }
