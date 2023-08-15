@@ -10,8 +10,15 @@ body {
 }
 
 .topnav {
-    background-color: grey;
+    background-color: cadetblue;
     overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
 }
 
 footer {
@@ -19,6 +26,15 @@ footer {
     width: 50%; 
     text-align: center;
     margin-top: 99%;
+}
+
+.topnav a:hover {
+    background-color: cyan;
+    color: grey;
+}
+
+.topnav a.active {
+    background-color: cornflowerblue;
 }
 
 /* .title1 {
