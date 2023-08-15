@@ -18,14 +18,8 @@ body {
     float: left;
     color: white;
     padding: 15px 15px;
+    text-decoration: none;
     text-align: center;
-}
-
-footer {
-    margin: auto;
-    width: 50%; 
-    text-align: center;
-    margin-top: 99%;
 }
 
 .topnav a:hover {
@@ -35,6 +29,14 @@ footer {
 
 .topnav a.active {
     background-color: cornflowerblue;
+    color: white;
+}
+
+footer {
+    margin: auto;
+    width: 50%; 
+    text-align: center;
+    margin-top: 99%;
 }
 
 /* .title1 {
