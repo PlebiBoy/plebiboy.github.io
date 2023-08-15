@@ -14,6 +14,13 @@ body {
     overflow: hidden;
 }
 
+footer {
+    margin: auto;
+    width: 50%; 
+    text-align: center;
+    margin-top: 99%;
+}
+
 /* .title1 {
     position: fixed;
 }
