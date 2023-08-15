@@ -39,6 +39,29 @@ footer {
     margin-top: 99%;
 }
 
+.topnav2 {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+.topnav2 a {
+    float: left;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav2 a:hover {
+    background-color: cyan;
+    color: grey;
+}
+
+.topnav2 a.active {
+    background-color: cornflowerblue;
+    color: white;
+}
+
 /* .title1 {
     position: fixed;
 }
