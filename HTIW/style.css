@@ -1,0 +1,30 @@
+p{
+    max-width: 600;
+}
+.topnav {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+footer {
+    margin: auto;
+    width: 50%; 
+    text-align: center;
+    margin-top: 99%;
+}
+
+.topnav a:hover {
+    background-color: cyan;
+    color: grey;
+}
+
+.topnav a.active {
+    background-color: cornflowerblue;
+}
