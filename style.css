@@ -10,25 +10,25 @@ body {
 }
 
 .topnav {
-    background-color: cadetblue;
+    background-color: rgb(182, 91, 163);
     overflow: hidden;
 }
 
 .topnav a {
     float: left;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 15px;
     text-decoration: none;
     text-align: center;
 }
 
 .topnav a:hover {
-    background-color: cyan;
-    color: grey;
+    background-color: rgb(200, 142, 214);
+    color: rgb(255, 255, 255);
 }
 
 .topnav a.active {
-    background-color: cornflowerblue;
+    background-color: rgb(182, 91, 163);
     color: white;
 }
 

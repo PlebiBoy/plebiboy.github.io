@@ -1,0 +1,59 @@
+body{
+    background-color:rgb(245, 240, 249)
+  
+}
+p,h3{
+   width: 50%;
+   color:rgb(0, 0, 0)
+
+   
+}
+h1{
+    width: 50%;
+    color: rgb(64, 52, 72)
+}
+.vl{
+    border-left: 3px solid rgb(178, 74, 74);
+    height: 1000px;
+    position: absolute;
+    left: 52%;
+    margin-left: -3px;
+    top: 160px;
+}
+
+ul,h2,a,li{
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+a{
+    text-align: left;
+    color: rgb(91, 0, 248);
+}
+.Dhtiw{
+    width: 40%; 
+    float: right; 
+    margin-top: 100px; 
+    margin-right: 100px;
+    position: absolute; 
+    right: 0; 
+    top: 50px; 
+
+}
+
+.Dhtiw img {
+    width: 80%; 
+    height: auto; 
+    
+}
+
+.textD{
+    float: right;
+    margin-right: 325px;
+    clear: right;
+
+}
+
+ul.a{
+    list-style-type: square;
+    max-width: 50%;
+}
