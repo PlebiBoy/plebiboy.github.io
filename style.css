@@ -18,13 +18,13 @@ body {
 .topnav {
     background-color: cadetblue;
     overflow: hidden;
-    margin-left: 49px;
+    margin-left: 59px;
 }
 
 .topnav a {
     float: left;
     color: white;
-    padding: 15px 15px;
+    padding: 20px 20px;
     text-decoration: none;
     text-align: center;
 }
