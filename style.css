@@ -1,3 +1,9 @@
+.logo {
+    left: 2;
+    top: 2;
+    position: absolute;
+}
+
 h1 {
     text-align: center;
     color: aquamarine;
@@ -12,6 +18,7 @@ body {
 .topnav {
     background-color: cadetblue;
     overflow: hidden;
+    margin-left: 49px;
 }
 
 .topnav a {
