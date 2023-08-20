@@ -1,11 +1,11 @@
 h1 {
     text-align: center;
-    color: aquamarine;
+    color: rgb(64, 52, 72);
     font-family: 'Times New Roman';
 }
 
 body {
-    background-color: steelblue;
+    background-color: rgb(245, 240, 249);
     text-align: center;
 }
 
