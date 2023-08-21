@@ -3,8 +3,10 @@ body{
     background-color:rgb(245, 240, 249)
 }
 p,h3{
+    text-align: left;
    width: 50%;
    color:rgb(0, 0, 0)
+    
 }
 h1{
     width: 50%;
