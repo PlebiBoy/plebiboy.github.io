@@ -1,12 +1,12 @@
 h1 {
     text-align: center;
     color: rgb(64, 52, 72);
-    font-family: 'Times New Roman';
 }
 
 body {
     background-color: rgb(245, 240, 249);
     text-align: center;
+    font-family: 'helvetica';
 }
 
 .topnav {
@@ -43,7 +43,6 @@ footer {
     border-left: 3px solid rgb(255, 255, 255);
     height: 47px;
     position: absolute;
-    left: 19%;
-    margin-left: 220px;
+    margin-left: 518px;
     top: 9px;
   }
