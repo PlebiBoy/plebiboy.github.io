@@ -57,3 +57,11 @@ ul.a{
     list-style-type: square;
     max-width: 50%;
 }
+.vl {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 47px;
+    position: absolute;
+    left: 19%;
+    margin-left: 220px;
+    top: 9px;
+  }
