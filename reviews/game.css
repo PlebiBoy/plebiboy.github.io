@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: rgb(64, 52, 72);
+    font-family: 'Times New Roman';
+}
+
+body {
+    background-color: rgb(245, 240, 249);
+    text-align: center;
+}
+
+.topnav {
+    background-color: rgb(182, 91, 163);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: rgb(200, 142, 214);
+    color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+    background-color: rgb(182, 91, 163);
+    color: white;
+}
+
+footer {
+    margin: auto;
+    width: 50%; 
+    text-align: center;
+    margin-top: 20%;
+}
