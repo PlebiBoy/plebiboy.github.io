@@ -12,14 +12,6 @@ h1{
     width: 50%;
     color: rgb(64, 52, 72)
 }
-.vllong{
-    border-left: 3px solid rgb(178, 74, 74);
-    height: 1150px;
-    position: absolute;
-    left: 52%;
-    margin-left: -3px;
-    top: 160px;
-}
 
 ul,h2,a,li{
     text-align: left;
