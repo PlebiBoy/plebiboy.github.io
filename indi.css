@@ -9,7 +9,7 @@ h1{
     width: 50%;
     color: rgb(64, 52, 72)
 }
-.vl{
+.vllong{
     border-left: 3px solid rgb(178, 74, 74);
     height: 1150px;
     position: absolute;
@@ -58,7 +58,6 @@ ul.a{
     border-left: 3px solid rgb(255, 255, 255);
     height: 47px;
     position: absolute;
-    left: 19%;
-    margin-left: 220px;
+    margin-left: 482px;
     top: 9px;
   }
