@@ -48,5 +48,6 @@ footer {
   }
   
   .h-gameimg{
-    
+    width: 40%;
+    max-width: 50px;
   }
