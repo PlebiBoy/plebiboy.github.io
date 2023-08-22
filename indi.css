@@ -22,10 +22,10 @@ a{
     color: rgb(91, 0, 248);
 }
 .Dhtiw{
-    width: 40%; 
+    width: 50%; 
     float: right; 
     margin-top: 100px; 
-    margin-right: 100px;
+    margin-right: -25px;
     position: absolute; 
     right: 0; 
     top: 50px; 
@@ -33,7 +33,7 @@ a{
 }
 
 .Dhtiw img {
-    width: 80%; 
+    width: 90%; 
     height: auto; 
     
 }
