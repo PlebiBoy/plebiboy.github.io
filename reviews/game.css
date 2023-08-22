@@ -47,7 +47,7 @@ footer {
     top: 9px;
   }
   
-  .h-gameimg{
-    width: 40%;
-    max-width: 50px;
+  img{
+    width: 250px;
+    float:left
   }
