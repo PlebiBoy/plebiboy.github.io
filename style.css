@@ -34,6 +34,13 @@ footer {
     text-align: center;
     margin-top: 20%;
 }
+.vl {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 47px;
+    position: absolute;
+    margin-left: 518px;
+    top: 9px;
+  }
 
 
 
