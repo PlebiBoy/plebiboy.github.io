@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    color: rgb(64, 52, 72);
+}
+
+body {
+    background-color: rgb(245, 240, 249);
+    text-align: center;
+    font-family: 'helvetica';
+}
+
+.topnav {
+    background-color: rgb(182, 91, 163);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: rgb(200, 142, 214);
+    color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+    background-color: rgb(182, 91, 163);
+    color: white;
+}
+
+footer {
+    margin: auto;
+    width: 50%; 
+    text-align: center;
+    margin-top: 20%;
+}
+
+.vl {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 47px;
+    position: absolute;
+    margin-left: 518px;
+    top: 9px;
+}
+.game-review {
+    display: flex;
+    align-items: center;
+    margin: 20px; /* Adjust margin as needed */
+  }
+
+  .rain_img {
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    margin: 20px; /* Adjust margin as needed */
+  }
+
+  h2.rain-world {
+    margin: 4px;
+    margin-top: -100px;
+  }
+  p.rain-world {
+    margin: -130px;
+    margin-top: -110px;
+    max-width: 300px;
+    text-align: left;
+  }
