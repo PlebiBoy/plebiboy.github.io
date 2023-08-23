@@ -47,9 +47,17 @@ footer {
     top: 9px;
   }
 
-
-
-/* .title1 {
-    position: fixed;
+.homex{
+    position: relative;
+      height: 100vh;
+      margin: 0;
 }
-/* css styling for all paragraph text */
+.centered{
+    position: absolute;
+      top: 800px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: left;
+      max-width: 800px; 
+      padding: 20px;
+}
