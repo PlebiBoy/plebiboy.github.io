@@ -76,6 +76,7 @@ footer {
     margin-top: -100px;
     color: rgb(80, 55, 96);
   }
+
   p.hollow {
     margin: -165px;
     margin-top: -140px;
@@ -89,9 +90,23 @@ footer {
     margin-top: -100px;
     color: rgb(80, 55, 96);
   }
+
   p.tear {
     margin: -114px;
     margin-top: -70px;
+    max-width: 300px;
+    text-align: left;
+    color: rgb(80, 55, 96);
+  }
+
+  h2.beam {
+    margin: 4px;
+    margin-top: -100px;
+    color: rgb(80, 55, 96);
+  }
+  p.beam{
+    margin: -170px;
+    margin-top: -120px;
     max-width: 300px;
     text-align: left;
     color: rgb(80, 55, 96);
