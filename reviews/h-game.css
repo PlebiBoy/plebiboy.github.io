@@ -69,3 +69,13 @@ footer {
     max-width: 300px;
     text-align: left;
   }
+  h2.hollow {
+    margin: 4px;
+    margin-top: -100px;
+  }
+  p.hollow {
+    margin: -163px;
+    margin-top: -140px;
+    max-width: 310px;
+    text-align: left;
+  }
