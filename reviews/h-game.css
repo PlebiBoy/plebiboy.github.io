@@ -106,7 +106,20 @@ footer {
   }
   p.beam{
     margin: -170px;
-    margin-top: -120px;
+    margin-top: -130px;
+    max-width: 300px;
+    text-align: left;
+    color: rgb(80, 55, 96);
+  }
+
+  h2.jack {
+    margin: 4px;
+    margin-top: -100px;
+    color: rgb(80, 55, 96);
+  }
+  p.jack {
+    margin: -122px;
+    margin-top: -75px;
     max-width: 300px;
     text-align: left;
     color: rgb(80, 55, 96);
