@@ -47,20 +47,6 @@ footer {
     top: 9px;
   }
 
-.homex{
-    position: relative;
-      height: 40vh;
-      margin: 0;
-}
-.centered{
-    position: absolute;
-      top: 800px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: left;
-      max-width: 800px; 
-      padding: 20px;
-}
 
 .logo{
     width: 500px;
