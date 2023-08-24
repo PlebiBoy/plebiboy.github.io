@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Review</title>
+    <style>
+      /* Basic styling for the comment section */
+      .comment-section {
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+
+      /* Styling for individual comments */
+      .comment {
+        border: 1px solid #ddd;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Game Title</h1>
+    <p>Game review content...</p>
+
+    <div class="comment-section">
+        <!-- Existing comments here -->
+  
+        <!-- Comment form -->
+      <form id="comment-form">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username"><br>
+              <label for="comment">Comment:</label><br>
+              <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+              <input type="submit" value="Submit">
+          </form>
+          <div id="confirmation-message" style="display: none;">Thank you for your comment!</div>
+      </div>
+  
+      <script>
+          // JavaScript code to handle form submission and show confirmation message
+          document.getElementById("comment-form").addEventListener("submit", function(event) {
+              event.preventDefault(); // Prevent the default form submission behavior
+              
+              // Hide the form and show the confirmation message
+              document.getElementById("comment-form").style.display = "none";
+              document.getElementById("confirmation-message").style.display = "block";
+              
+              // Clear the form fields after submission
+              document.getElementById("username").value = "";
+              document.getElementById("comment").value = "";
+          });
+      </script>
+</html>
