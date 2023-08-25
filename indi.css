@@ -8,9 +8,10 @@ p,h3,h2{
    color:rgb(0, 0, 0)
     
 }
-h1{
+h1 {
     width: 49%;
-    color: rgb(64, 52, 72)
+    color: rgb(64, 52, 72);
+    text-align: left;
 }
 
 ul,h2,a,li{
