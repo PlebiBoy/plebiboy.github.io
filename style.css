@@ -51,3 +51,80 @@ footer {
 .logo{
     width: 500px;
 }
+
+.about-net {
+    display: flex;
+    align-items: center;
+    margin: 20px; /* Adjust margin as needed */
+  }
+  .net_img {
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    margin: 20px; /* Adjust margin as needed */
+  }
+  h2.rain-world {
+    margin: 4px;
+    margin-top: -100px;
+    color: rgb(80, 55, 96);
+  }
+  p.rain-world {
+    margin: -130px;
+    margin-top: -110px;
+    max-width: 300px;
+    text-align: left;
+    color: rgb(80, 55, 96);
+  }
+  h2.hollow {
+    margin: 4px;
+    margin-top: -100px;
+    color: rgb(80, 55, 96);
+  }
+
+  p.hollow {
+    margin: -165px;
+    margin-top: -140px;
+    max-width: 310px;
+    text-align: left;
+    color: rgb(80, 55, 96);
+  }
+
+  h2.tear {
+    margin: 4px;
+    margin-top: -100px;
+    color: rgb(80, 55, 96);
+  }
+
+  p.tear {
+    margin: -114px;
+    margin-top: -70px;
+    max-width: 300px;
+    text-align: left;
+    color: rgb(80, 55, 96);
+  }
+
+  h2.beam {
+    margin: 4px;
+    margin-top: -100px;
+    color: rgb(80, 55, 96);
+  }
+  p.beam{
+    margin: -170px;
+    margin-top: -130px;
+    max-width: 300px;
+    text-align: left;
+    color: rgb(80, 55, 96);
+  }
+
+  h2.jack {
+    margin: 4px;
+    margin-top: -100px;
+    color: rgb(80, 55, 96);
+  }
+  p.jack {
+    margin: -122px;
+    margin-top: -75px;
+    max-width: 300px;
+    text-align: left;
+    color: rgb(80, 55, 96);
+  }
