@@ -19,6 +19,64 @@
       <a href="bloons.html">Bloons TD 4</a>
     </div>
     <div class="vl"></div>
+    <div class="vllong"></div>
+    <style>
+      .vllong {
+        border-left: 3px solid rgb(178, 74, 74);
+        height: 1500px;
+        position: absolute;
+        margin-left: 62%;
+        top: 90px;
+      }
+    </style>
+    <div class="right-side">
+      <div class="comment-section">
+        <!-- Comment boxes -->
+        <div class="comment">
+          <p><strong>User1:</strong> This game is amazing!</p>
+        </div>
+        <br />
+        <div class="comment">
+          <p><strong>User2:</strong> I'm loving the atmosphere.</p>
+        </div>
+        <br />
+        <div class="comment">
+          <p><strong>User3:</strong> Challenging but rewarding gameplay.</p>
+        </div>
+        <br />
+        <form id="comment-form">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" /><br />
+          <label for="comment">Comment:</label><br />
+          <textarea id="comment" name="comment" rows="4" cols="50"></textarea
+          ><br />
+          <input type="submit" value="Submit" />
+        </form>
+        <div id="confirmation-message" style="display: none">
+          Thank you for your comment! <br />
+          <button id="resubmit-button" onclick="showCommentForm()">
+            Resubmit
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementById("comment-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission behavior
+
+          // Hide the form and show the confirmation message
+          document.getElementById("comment-form").style.display = "none";
+          document.getElementById("confirmation-message").style.display =
+            "block";
+        });
+
+      function showCommentForm() {
+        document.getElementById("comment-form").style.display = "block";
+        document.getElementById("confirmation-message").style.display = "none";
+      }
+    </script>
   </body>
 </html>
 
