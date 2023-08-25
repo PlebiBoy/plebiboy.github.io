@@ -87,6 +87,13 @@ input[type="submit"] {
     margin-bottom: 5px;
 }
 
+.comment-section {
+    float: right;
+    width: 35%; /* Adjust the width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+}
 
 
 
