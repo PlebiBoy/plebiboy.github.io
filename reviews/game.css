@@ -46,38 +46,48 @@ footer {
     margin-left: 518px;
     top: 9px;
 }
-right-side {
-    float: right;
-    width: 40%; /* Adjust the width of the right side */
-    position: relative; /* For positioning the vllong-right element */
-}
-
-.vllong-right {
-    border-left: 3px solid rgb(255, 255, 255);
-    height: 100%;
-    position: relative;
-    left: -10px;
-}
-
-.comment-section {
-    float: right;
-    width: 40%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: rgb(240, 240, 240); /* Add a background color */
-    border-left: 3px solid rgb(178, 74, 74);
-    border-right: 3px solid rgb(178, 74, 74); /* Add a right border */
-}
-
-
 .comment {
     border: 1px solid rgb(200, 200, 200);
     padding: 10px;
     margin-bottom: 10px;
+    background-color: rgb(245, 245, 245); /* Add a background color for better visibility */
 }
 
-#confirmation-message {
-    display: none;
-    color: green;
-    margin-top: 10px;
+#username {
+    /* Adjust the width and alignment of the username input */
+    width: 100%;
+    margin-right: 10px; /* Add margin to create space between input and label */
 }
+
+#comment {
+    /* Adjust the appearance of the comment textarea */
+    width: 100%;
+    padding: 8px;
+    resize: vertical; /* Allow vertical resizing of textarea */
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    /* Style the submit button */
+    background-color: rgb(178, 74, 74);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Add spacing between comment boxes */
+.comment-section .comment:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/* Adjust the alignment of the form elements */
+#comment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+
+
