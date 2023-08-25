@@ -95,6 +95,12 @@ input[type="submit"] {
     background-color: rgb(240, 240, 240);
 }
 
+.g-r-text{
+    text-align: left;
+    width: 57%;
+    margin-left: 1%;
+}
+
 
 
 
