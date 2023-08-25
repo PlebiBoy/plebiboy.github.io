@@ -93,6 +93,7 @@ input[type="submit"] {
     padding: 20px;
     box-sizing: border-box;
     background-color: rgb(240, 240, 240);
+    margin-top: 150px;
 }
 
 .g-r-text{
@@ -101,6 +102,12 @@ input[type="submit"] {
     margin-left: 1%;
 }
 
-
+.imgrain1 {
+    display: block; 
+    width: 40%;
+    margin-right: 0%;
+    margin-left: 23px;
+    margin-top: 25px;
+  }
 
 
