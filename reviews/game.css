@@ -126,6 +126,9 @@ input[type="submit"] {
   }
 
   .g-r2-text{
-    margin-top: 19%;
+    text-align: left;
+    width: 57%;
+    margin-top: 18%;
+    margin-left: 1%;
   }
 
