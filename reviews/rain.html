@@ -49,40 +49,51 @@
           <label for="username">Username:</label>
           <input type="text" id="username" name="username" /><br />
           <label for="comment">Comment:</label><br />
-          <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br />
+          <textarea id="comment" name="comment" rows="4" cols="50"></textarea
+          ><br />
           <input type="submit" value="Submit" />
         </form>
         <div id="confirmation-message" style="display: none">
-          Thank you for your comment! <br>
-          <button id="resubmit-button" onclick="showCommentForm()">Resubmit</button>
+          Thank you for your comment! <br />
+          <button id="resubmit-button" onclick="showCommentForm()">
+            Resubmit
+          </button>
         </div>
+      </div>
     </div>
     <script>
-      document.getElementById("comment-form").addEventListener("submit", function (event) {
-  event.preventDefault(); // Prevent the default form submission behavior
+      document
+        .getElementById("comment-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission behavior
 
-  // Hide the form and show the confirmation message
-  document.getElementById("comment-form").style.display = "none";
-  document.getElementById("confirmation-message").style.display = "block";
-});
+          // Hide the form and show the confirmation message
+          document.getElementById("comment-form").style.display = "none";
+          document.getElementById("confirmation-message").style.display =
+            "block";
+        });
 
-function showCommentForm() {
-  document.getElementById("comment-form").style.display = "block";
-  document.getElementById("confirmation-message").style.display = "none";
-}
-
+      function showCommentForm() {
+        document.getElementById("comment-form").style.display = "block";
+        document.getElementById("confirmation-message").style.display = "none";
+      }
     </script>
     <h1>Rain world</h1>
     <div class="g-r-text">
-<h2>Game: Rain world</h2>
-<p>
-  Rating: ★★★★☆ (4/5)<br>
-  Title: A Unique and Atmospheric Journey - Rain World Review
-</p>
-<p>Rain World is a mesmerising and enigmatic game that manages to stand out in the world of indie platformers. 
-  With its distinct art style, challenging gameplay, and immersive atmosphere, this game offers an experience unlike any other. 
-  Developed by Videocult and published by Adult Swim Games, Rain World invites players to explore a desolate world filled with danger, mystery, and survival.</p>
+      <h2>Game: Rain world</h2>
+      <p>
+        Rating: ★★★★☆ (4/5)<br />
+        Title: A Unique and Atmospheric Journey - Rain World Review
+      </p>
+      <p>
+        Rain World is a mesmerising and enigmatic game that manages to stand out
+        in the world of indie platformers. With its distinct art style,
+        challenging gameplay, and immersive atmosphere, this game offers an
+        experience unlike any other. Developed by Videocult and published by
+        Adult Swim Games, Rain World invites players to explore a desolate world
+        filled with danger, mystery, and survival.
+      </p>
     </div>
-<img src="frain.png" alt="">
-</body>
+    <img src="frain.png" alt="" />
+  </body>
 </html>
